@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloomlib"
+version = "0.1.0"
+description = "Bloom, counting and dynamic Bloom filters in pure Python, with the closed-form false positive rate measured against a real hash"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools]
+packages = ["bloomlib"]
